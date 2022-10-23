@@ -1,4 +1,4 @@
-package br.gahlls.example.springbootrelationship.request;
+package com.enocacase.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

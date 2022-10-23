@@ -1,4 +1,4 @@
-package br.gahlls.example.springbootrelationship.config;
+package com.enocacase.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

@@ -1,7 +1,6 @@
-package br.gahlls.example.springbootrelationship.request;
+package com.enocacase.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

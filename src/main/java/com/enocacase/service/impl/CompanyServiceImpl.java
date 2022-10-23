@@ -1,11 +1,12 @@
-package br.gahlls.example.springbootrelationship.service.impl;
+package com.enocacase.service.impl;
 
-import java.util.List;
+
+import com.enocacase.model.Company;
+import com.enocacase.repository.CompanyRepository;
+import com.enocacase.service.CompanyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import br.gahlls.example.springbootrelationship.model.Company;
-import br.gahlls.example.springbootrelationship.repository.CompanyRepository;
-import br.gahlls.example.springbootrelationship.service.CompanyService;
+import java.util.List;
 
 @Service
 public class CompanyServiceImpl implements CompanyService {

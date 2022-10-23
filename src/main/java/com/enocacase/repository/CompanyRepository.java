@@ -1,8 +1,9 @@
-package br.gahlls.example.springbootrelationship.repository;
+package com.enocacase.repository;
 
+
+import com.enocacase.model.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import br.gahlls.example.springbootrelationship.model.Company;
 
 @Repository
 public interface CompanyRepository extends JpaRepository<Company, Integer> {

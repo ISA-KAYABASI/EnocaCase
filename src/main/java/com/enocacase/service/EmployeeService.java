@@ -1,8 +1,9 @@
-package br.gahlls.example.springbootrelationship.service;
+package com.enocacase.service;
+
+
+import com.enocacase.model.Employee;
 
 import java.util.List;
-
-import br.gahlls.example.springbootrelationship.model.Employee;
 
 public interface EmployeeService {
 
